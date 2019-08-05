@@ -50,13 +50,18 @@
       font-size: 3rem;
     }
   }
+  @media (max-width: 767px) {
+    .showcase .showcase-img {
+      min-width: 600px;
+    } 
+   }
   
   .showcase .showcase-text {
     padding: 3rem;
   }
   
   .showcase .showcase-img {
-    min-height: 30rem;
+    min-height: 10rem;
     background-size: cover;
   }
   
