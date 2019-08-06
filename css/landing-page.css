@@ -49,12 +49,14 @@
     header.masthead h1 {
       font-size: 3rem;
     }
+    .showcase .showcase-text {
+      padding: 7rem;
+    }
+    .copyright {
+      float: center;
+    }
+    
   }
-  @media (max-width: 767px) {
-    .showcase .showcase-img {
-      min-width: 600px;
-    } 
-   }
   
   .showcase .showcase-text {
     padding: 3rem;
@@ -66,9 +68,7 @@
   }
   
   @media (min-width: 768px) {
-    .showcase .showcase-text {
-      padding: 7rem;
-    }
+    
   }
   
   .features-icons {
